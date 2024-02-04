@@ -3,17 +3,17 @@ import Link from "next/link";
 export default function Main() {
   return (
     <>
-      <div className="styles.grid">
-        <Link href="/hello/AliceSayHi">
-          <h1 className="text-xl font-bold">welcome to alice home</h1>
+      <h1>alice&#39;s home </h1>
+      <div className="font-mono">
+        <Link href="/artists/0001">
+          <h3>21 Savage</h3>
         </Link>
-        <a className="styles.car">
-          <h2>get to know alice</h2>
-          <p className="line-through">everything you should know about</p>
-        </a>
-      </div>
-      <div className="grid">
-        <Link href="/hello/AliceSayHi/savage">click here</Link>
+        <Link href="/artists/0002">
+          <h3>Post Malone</h3>
+        </Link>
+        <Link href="/artists/0003">
+          <h3>Metro Boomin</h3>
+        </Link>
       </div>
     </>
   );
